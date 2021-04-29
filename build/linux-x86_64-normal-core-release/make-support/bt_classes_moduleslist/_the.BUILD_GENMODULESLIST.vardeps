@@ -1,0 +1,1 @@
+/lib/jvm/java-1.8.0/bin/javac -XDignore.symbol.file=true -g -Xlint:all,-deprecation -Werror /home/ec2-user/jdk/build/linux-x86_64-normal-core-release/make-support/bt_classes_moduleslist

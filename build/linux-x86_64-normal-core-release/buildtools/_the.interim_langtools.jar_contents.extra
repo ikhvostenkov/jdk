@@ -1,0 +1,5 @@
+/home/ec2-user/jdk/build/linux-x86_64-normal-core-release/buildtools/langtools_interim_classes/META-INF/services/com.sun.tools.javac.platform.PlatformProvider
+/home/ec2-user/jdk/build/linux-x86_64-normal-core-release/buildtools/langtools_interim_classes/com/sun/tools/javac/services/javax.tools.JavaCompilerTool
+/home/ec2-user/jdk/build/linux-x86_64-normal-core-release/buildtools/langtools_interim_classes/com/sun/tools/doclets/internal/toolkit/resources/doclet.xml
+/home/ec2-user/jdk/build/linux-x86_64-normal-core-release/buildtools/langtools_interim_classes/com/sun/tools/doclets/internal/toolkit/resources/script.js
+/home/ec2-user/jdk/build/linux-x86_64-normal-core-release/buildtools/langtools_interim_classes/com/sun/tools/doclets/internal/toolkit/resources/stylesheet.css

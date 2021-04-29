@@ -1,0 +1,61 @@
+java.base: 
+java.instrument: java.base
+java.scripting: java.base
+java.logging: java.base
+java.xml: java.base
+java.sql: java.base java.logging java.xml
+java.rmi: java.base java.logging
+jdk.charsets: java.base
+jdk.jartool: java.base
+java.prefs: java.base java.xml
+java.datatransfer: java.base
+java.desktop: java.prefs java.datatransfer java.base java.logging java.xml
+jdk.deploy.osx: java.desktop java.scripting java.base
+jdk.jvmstat: java.base java.rmi
+java.security.sasl: java.base java.logging
+java.naming: java.base java.security.sasl
+java.management: java.base java.naming java.logging java.rmi
+jdk.attach: jdk.jvmstat java.base
+jdk.management: java.management java.base
+jdk.jconsole: jdk.jvmstat java.desktop java.management jdk.attach jdk.management java.base java.logging java.rmi
+jdk.httpserver: java.base java.logging
+java.annotations.common: java.base
+java.compiler: java.base java.logging
+java.activation: java.desktop java.datatransfer java.base java.logging
+java.xml.bind: java.desktop java.compiler java.datatransfer java.base java.logging java.activation java.xml
+java.xml.ws: jdk.httpserver java.desktop java.annotations.common java.management java.xml.bind java.datatransfer java.base java.logging java.rmi java.activation java.xml
+jdk.compiler: java.compiler java.base
+jdk.jdeps: jdk.compiler java.compiler java.base java.xml
+java.security.jgss: java.base java.naming
+jdk.security.jgss: java.base java.security.jgss java.security.sasl java.logging
+jdk.crypto.mscapi: java.base
+jdk.javadoc: jdk.compiler java.compiler java.base java.xml
+java.transaction: java.base java.rmi
+java.corba: java.desktop java.transaction java.base java.naming java.logging java.rmi
+jdk.rmic: jdk.javadoc jdk.compiler java.base java.corba
+jdk.xml.dom: java.base java.xml
+jdk.crypto.ec: java.base
+jdk.crypto.pkcs11: jdk.crypto.ec java.base
+jdk.xml.bind: java.desktop jdk.compiler java.compiler java.xml.bind java.datatransfer java.base java.logging java.activation java.xml
+jdk.dev: java.base
+java.xml.crypto: java.base java.logging java.xml
+jdk.scripting.nashorn: java.scripting java.base java.logging
+jdk.crypto.ucrypto: java.base
+java.sql.rowset: java.base java.sql java.naming java.logging java.xml
+jdk.jdi: jdk.attach java.base
+jdk.hotspot.agent: java.desktop java.scripting java.datatransfer java.base java.rmi jdk.jdi
+jdk.localedata: java.base
+jdk.naming.dns: java.base java.naming
+jdk.jcmd: jdk.jvmstat jdk.attach java.base
+jdk.pack200: java.base
+jdk.policytool: java.desktop java.management java.base java.security.jgss jdk.security.jgss java.sql java.logging
+jdk.sctp: java.base
+jdk.naming.rmi: java.base java.naming java.rmi
+jdk.zipfs: java.base
+java.smartcardio: java.base
+jdk.jdwp.agent: java.base
+jdk.internal.le: java.base
+jdk.scripting.nashorn.shell: java.desktop jdk.scripting.nashorn java.compiler java.base jdk.internal.le
+jdk.xml.ws: java.xml.ws java.compiler java.xml.bind java.base jdk.xml.bind java.logging java.rmi java.xml
+jdk.security.auth: java.base java.security.jgss java.naming
+jdk.accessibility: java.desktop java.base

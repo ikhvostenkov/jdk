@@ -1,0 +1,238 @@
+configure: Configuration created at Wed Apr 28 22:42:32 UTC 2021.
+configure: configure script generated at timestamp 1435822080.
+checking for basename... /bin/basename
+checking for bash... /bin/bash
+checking for cat... /bin/cat
+checking for chmod... /bin/chmod
+checking for cmp... /bin/cmp
+checking for comm... /bin/comm
+checking for cp... /bin/cp
+checking for cut... /bin/cut
+checking for date... /bin/date
+checking for gdiff... no
+checking for diff... /bin/diff
+checking for dirname... /bin/dirname
+checking for echo... /bin/echo
+checking for expr... /bin/expr
+checking for file... /bin/file
+checking for find... /bin/find
+checking for head... /bin/head
+checking for ln... /bin/ln
+checking for ls... /bin/ls
+checking for mkdir... /bin/mkdir
+checking for mktemp... /bin/mktemp
+checking for mv... /bin/mv
+checking for nawk... no
+checking for gawk... /bin/gawk
+checking for printf... /bin/printf
+checking for rm... /bin/rm
+checking for sh... /bin/sh
+checking for sort... /bin/sort
+checking for tail... /bin/tail
+checking for tar... /bin/tar
+checking for tee... /bin/tee
+checking for touch... /bin/touch
+checking for tr... /bin/tr
+checking for uname... /bin/uname
+checking for uniq... /bin/uniq
+checking for wc... /bin/wc
+checking for which... /bin/which
+checking for xargs... /bin/xargs
+checking for gawk... gawk
+checking for grep that handles long lines and -e... /bin/grep
+checking for egrep... /bin/grep -E
+checking for fgrep... /bin/grep -F
+checking for a sed that does not truncate output... /bin/sed
+checking for cygpath... no
+checking for greadlink... no
+checking for readlink... /bin/readlink
+checking for df... /bin/df
+checking for cpio... /bin/cpio
+checking build system type... x86_64-unknown-linux-gnu
+checking host system type... x86_64-unknown-linux-gnu
+checking target system type... x86_64-unknown-linux-gnu
+checking openjdk-build os-cpu... linux-x86_64
+checking openjdk-target os-cpu... linux-x86_64
+checking compilation type... native
+checking for top-level directory... /home/ec2-user/jdk
+checking for presence of closed sources... no
+checking if closed source is suppressed (openjdk-only)... no
+checking which variant of the JDK to build... normal
+checking which interpreter of the JVM to build... template
+checking which variants of the JVM to build... core
+checking which debug level to use... release
+checking for sysroot... 
+checking for toolchain path... 
+checking for extra path... 
+checking where to store configuration... in default location
+checking what configuration name to use... linux-x86_64-normal-core-release
+checking for apt-get... no
+checking for yum... yum
+checking for gmake... /bin/gmake
+configure: Testing potential make at /bin/gmake, found using gmake in PATH
+configure: Using GNU make at /bin/gmake (version: GNU Make 4.2.1)
+checking if make --output-sync is supported... yes
+checking for output-sync value... none
+checking if find supports -delete... yes
+checking for unzip... /bin/unzip
+checking for zip... /bin/zip
+checking for ldd... /bin/ldd
+checking for otool... no
+checking for greadelf... no
+checking for readelf... /bin/readelf
+checking for hg... no
+checking for stat... /bin/stat
+checking for time... no
+checking if bash supports pipefail... yes
+checking if bash supports errexit (-e)... yes
+checking for pkg-config... /bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for 7z... no
+checking for unzip... unzip
+checking for wget... no
+checking for lftp... no
+checking for ftp... no
+checking headful support... include support for both headful and headless
+configure: Found potential Boot JDK using configure arguments
+checking for Boot JDK... /lib/jvm/java-1.8.0
+checking Boot JDK version... openjdk version "1.8.0_292" OpenJDK Runtime Environment (build 1.8.0_292-b10) OpenJDK 64-Bit Server VM (build 25.292-b10, mixed mode) 
+checking for java in Boot JDK... ok
+checking for javac in Boot JDK... ok
+checking for javah in Boot JDK... ok
+checking for jar in Boot JDK... ok
+checking for jarsigner in Boot JDK... ok
+configure: Using default toolchain gcc (GNU Compiler Collection)
+checking for gcc... /bin/gcc
+checking resolved symbolic links for CC... /usr/bin/gcc
+checking if CC is disguised ccache... no, keeping CC
+configure: Using gcc C compiler version 8.3.1 [gcc (GCC) 8.3.1 20191121 (Red Hat 8.3.1-5)]
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether /bin/gcc accepts -g... yes
+checking for /bin/gcc option to accept ISO C89... none needed
+checking for g++... /bin/g++
+checking resolved symbolic links for CXX... /usr/bin/g++
+checking if CXX is disguised ccache... no, keeping CXX
+configure: Using gcc C++ compiler version 8.3.1 [g++ (GCC) 8.3.1 20191121 (Red Hat 8.3.1-5)]
+checking whether we are using the GNU C++ compiler... yes
+checking whether /bin/g++ accepts -g... yes
+checking how to run the C preprocessor... /bin/gcc -E
+checking how to run the C++ preprocessor... /bin/g++ -E
+checking for ar... ar
+configure: Rewriting AR to "/bin/ar"
+checking for strip... strip
+configure: Rewriting STRIP to "/bin/strip"
+checking for nm... nm
+configure: Rewriting NM to "/bin/nm"
+checking for gobjcopy... no
+checking for objcopy... objcopy
+configure: Rewriting OBJCOPY to "/bin/objcopy"
+checking for gobjdump... no
+checking for objdump... objdump
+configure: Rewriting OBJDUMP to "/bin/objdump"
+checking if compiler supports "-Og"... yes
+checking if linker supports "-Xlinker -z -Xlinker relro"... yes
+checking if linker supports "-Xlinker -z -Xlinker now"... yes
+checking for broken SuSE 'ld' which only understands anonymous version tags in executables... no
+checking for jtreg... no
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking stdio.h usability... yes
+checking stdio.h presence... yes
+checking for stdio.h... yes
+checking size of int *... 8
+checking for target address size... 64 bits
+checking whether byte ordering is bigendian... no
+checking if compiler supports "-m64"... yes
+checking if compiler supports "-m64"... yes
+checking if native warnings are errors... yes (default)
+checking if compiler supports "-Wno-this-is-a-warning-that-do-not-exist"... yes
+checking if we should generate debug symbols... true
+checking if we should zip debug-info files... yes
+checking what is not needed on Linux?... pulse
+checking for X... libraries , headers 
+checking for gethostbyname... yes
+checking for connect... yes
+checking for remove... yes
+checking for shmat... yes
+checking for IceConnectionNumber in -lICE... yes
+checking for X11/extensions/shape.h... yes
+checking for X11/extensions/Xrender.h... yes
+checking for X11/extensions/XTest.h... yes
+checking for X11/Intrinsic.h... yes
+checking if XlinearGradient is defined in Xrender.h... yes
+checking cups/cups.h usability... yes
+checking cups/cups.h presence... yes
+checking for cups/cups.h... yes
+checking cups/ppd.h usability... yes
+checking cups/ppd.h presence... yes
+checking for cups/ppd.h... yes
+checking for FREETYPE... yes
+checking for freetype... yes (using pkg-config)
+checking if we can compile and link with freetype... yes
+checking if we should bundle freetype... no
+checking for ALSA... yes
+checking for which libjpeg to use... bundled
+checking for which giflib to use... bundled
+checking for which lcms to use... bundled
+checking for which libpng to use... bundled
+checking for compress in -lz... yes
+checking for which zlib to use... bundled
+checking for cos in -lm... yes
+checking for dlopen in -ldl... yes
+checking if dynamic link of stdc++ is possible... yes
+checking if static link of stdc++ is possible... no
+checking how to link with libstdc++... dynamic
+checking if elliptic curve crypto implementation is present... yes
+checking for number of cores... 1
+checking for memory size... 805 MB
+checking for appropriate number of jobs to run in parallel... 1
+checking flags for boot jdk java command ...  
+checking flags for boot jdk java command for big workloads...  -Xms64M -Xmx512M -XX:ThreadStackSize=1536
+checking flags for boot jdk java command for small workloads...  -XX:+UseSerialGC -Xms32M -Xmx512M
+checking whether to use sjavac... no
+checking that precompiled headers work... yes
+checking is ccache enabled... no
+checking if build directory is on local disk... yes
+configure: creating /home/ec2-user/jdk/build/linux-x86_64-normal-core-release/configure-support/config.status
+config.status: creating /home/ec2-user/jdk/build/linux-x86_64-normal-core-release/spec.gmk
+config.status: creating /home/ec2-user/jdk/build/linux-x86_64-normal-core-release/hotspot-spec.gmk
+config.status: creating /home/ec2-user/jdk/build/linux-x86_64-normal-core-release/bootcycle-spec.gmk
+config.status: creating /home/ec2-user/jdk/build/linux-x86_64-normal-core-release/compare.sh
+config.status: creating /home/ec2-user/jdk/build/linux-x86_64-normal-core-release/Makefile
+found it
+
+====================================================
+A new configuration has been successfully created in
+/home/ec2-user/jdk/build/linux-x86_64-normal-core-release
+using configure arguments '--with-boot-jdk=/lib/jvm/java-1.8.0/ --with-jvm-variants=core'.
+
+Configuration summary:
+* Debug level:    release
+* HS debug level: product
+* JDK variant:    normal
+* JVM variants:   core
+* OpenJDK target: OS: linux, CPU architecture: x86, address length: 64
+
+Tools summary:
+* Boot JDK:       openjdk version "1.8.0_292" OpenJDK Runtime Environment (build 1.8.0_292-b10) OpenJDK 64-Bit Server VM (build 25.292-b10, mixed mode)  (at /lib/jvm/java-1.8.0)
+* Toolchain:      gcc (GNU Compiler Collection)
+* C Compiler:     Version 8.3.1 (at /bin/gcc)
+* C++ Compiler:   Version 8.3.1 (at /bin/g++)
+
+Build performance summary:
+* Cores to use:   1
+* Memory limit:   805 MB
+

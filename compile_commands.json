@@ -1,0 +1,63 @@
+[
+ {
+  "directory": "/home/ec2-user/jdk",
+  "arguments": [
+   "/bin/gcc",
+   "-Werror",
+   "-DTHIS_FILE=genSocketOptionRegistry.c",
+   "-c",
+   "-MMD",
+   "-MF",
+   "/home/ec2-user/jdk/build/linux-x86_64-normal-core-release/buildtools/native/genSocketOptionRegistry/genSocketOptionRegistry.d",
+   "-o",
+   "/home/ec2-user/jdk/build/linux-x86_64-normal-core-release/buildtools/native/genSocketOptionRegistry/genSocketOptionRegistry.o",
+   "/home/ec2-user/jdk/jdk/make/src/native/genconstants/ch/genSocketOptionRegistry.c"
+  ],
+  "file": "/home/ec2-user/jdk/jdk/make/src/native/genconstants/ch/genSocketOptionRegistry.c"
+ },
+ {
+  "directory": "/home/ec2-user/jdk",
+  "arguments": [
+   "/bin/gcc",
+   "-D_GNU_SOURCE",
+   "-D_REENTRANT",
+   "-D_LARGEFILE64_SOURCE",
+   "-D_LP64=1",
+   "-D_LITTLE_ENDIAN",
+   "-DLINUX",
+   "-DARCH=amd64",
+   "-Damd64",
+   "-DNDEBUG",
+   "-DRELEASE=1.9.0-internal",
+   "-Werror",
+   "-DTHIS_FILE=genUnixConstants.c",
+   "-c",
+   "-MMD",
+   "-MF",
+   "/home/ec2-user/jdk/build/linux-x86_64-normal-core-release/buildtools/native/genUnixConstants/genUnixConstants.d",
+   "-o",
+   "/home/ec2-user/jdk/build/linux-x86_64-normal-core-release/buildtools/native/genUnixConstants/genUnixConstants.o",
+   "/home/ec2-user/jdk/jdk/make/src/native/genconstants/fs/genUnixConstants.c"
+  ],
+  "file": "/home/ec2-user/jdk/jdk/make/src/native/genconstants/fs/genUnixConstants.c"
+ },
+ {
+  "directory": "/home/ec2-user/jdk",
+  "arguments": [
+   "/bin/gcc",
+   "-m64",
+   "-o",
+   "/home/ec2-user/jdk/build/linux-x86_64-normal-core-release/support/gensrc/java.desktop/_x11wrappers/sizer.64.exe",
+   "/home/ec2-user/jdk/build/linux-x86_64-normal-core-release/support/gensrc/java.desktop/_x11wrappers/sizer.64.c",
+   "-I/home/ec2-user/jdk/jdk/src/java.base/share/native/include",
+   "-I/home/ec2-user/jdk/jdk/src/java.base/unix/native/include",
+   "-I/home/ec2-user/jdk/jdk/src/java.base/share/native/libjava",
+   "-I/home/ec2-user/jdk/jdk/src/java.base/unix/native/libjava",
+   "-I/home/ec2-user/jdk/jdk/src/java.desktop/unix/native/common/awt",
+   "-I/home/ec2-user/jdk/jdk/src/java.desktop/share/native/common/awt/debug",
+   "-I/home/ec2-user/jdk/jdk/src/java.desktop/share/native/libawt/awt/image/cvutils",
+   "-lc"
+  ],
+  "file": "/home/ec2-user/jdk/build/linux-x86_64-normal-core-release/support/gensrc/java.desktop/_x11wrappers/sizer.64.c"
+ }
+]

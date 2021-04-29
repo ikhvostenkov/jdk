@@ -1,0 +1,1 @@
+-Werror -Werror /bin/gcc /bin/g++ /bin/gcc -c
